@@ -2,7 +2,15 @@
 <html>
 <head>
 <title>Page Title</title>
-<script type="test/javascript">
+
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<button onclick="ShowName();"> showname </button>
+
+<script type="text/javascript">
 
 function ShowName()
 {
@@ -15,11 +23,5 @@ function ShowName()
  }
  }
 </script>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<button onclick="ShowName();"> showname </button>
 </body>
 </html>
