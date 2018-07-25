@@ -4,6 +4,13 @@
 <title>Page Title</title>
 </head>
 <body>
+var person = prompt("Please enter your name", "Harry Potter");
+
+if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+} else {
+    txt = "Hello " + person + "! How are you today?";
+}
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
