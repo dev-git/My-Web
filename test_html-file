@@ -5,16 +5,21 @@
 </head>
 <body>
 <script>
-var person = prompt("Please enter your name", "Harry Potter");
 
-if (person == null || person == "") {
-    txt = "User cancelled the prompt.";
-} else {
-    txt = "Hello " + person + "! How are you today?";
-}
+function ShowName()
+{
+    var person = prompt("Please enter your name", "Harry Potter");
+
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+     txt = "Hello " + person + "! How are you today?";
+ }
+ }
 </script>
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 
+<input type="button" onclick="ShowName">Show Name</input>
 </body>
 </html>
