@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<button onclick="ShowName();"> showname </button>
+
+<script type="text/javascript">
+
+function ShowName()
+{
+    var person = prompt("Please enter your name", "Harry Potter");
+
+    if (person == null || person == "") {
+        txt = "User cancelled the prompt.";
+    } else {
+     txt = "Hello " + person + "! How are you today?";
+ }
+ }
+</script>
+</body>
+</html>
