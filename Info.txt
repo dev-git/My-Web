@@ -1,0 +1,5 @@
+######## Put useful commands/info here:
+$users
+
+MySql root login
+MySql database name
